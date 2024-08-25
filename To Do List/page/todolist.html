@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--css linkage-->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    
+    
+    <title>To Do List</title>
+
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 mt-5 mb-5">
+                                <h1 class="heading">List of Tasks</h1>
+                                <p class="quote">Small steps every day lead to big results</p>
+                                <p><img src="../image/todolist.svg" alt="Tasks" class="img-fluid"></p>
+                            </div>
+                            <div class="col-md-6 mt-5 mb-5">
+                                <form id="todoForm">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingInput" placeholder="Add a new task">
+                                        <label for="floatingInput">Please Enter Your Task</label>
+                                        <p class="mt-2"><button type="submit" class="btn btn-primary">Add Task</button></p>
+                                      </div>
+                                </form>
+                                <ol id="todoList"></ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+
+
+    <!--js linkage-->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/todolist.js"></script>
+</body>
+</html>

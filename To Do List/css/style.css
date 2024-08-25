@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agbalumo&family=Alfa+Slab+One&family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Bungee+Inline&family=Dancing+Script&family=Fjalla+One&family=Gloria+Hallelujah&family=Kenia&family=Lato&family=Noto+Serif+Old+Uyghur&family=Pinyon+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #ffffff;
+    height: 90vh;
+    width: 100%;
+}
+
+.heading {
+    font-weight: 600;
+}
+
+.quote {
+    font-weight: 500;
+    font-size: 20px;
+}
